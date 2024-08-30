@@ -1,0 +1,1 @@
+package co.istad.springwebmvc.Repository;public interface ProductRepository {}
