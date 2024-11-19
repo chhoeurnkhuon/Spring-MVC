@@ -1,0 +1,1 @@
+package co.istad.springwebmvc.dto;import lombok.*;@Getter@Setter@NoArgsConstructor@AllArgsConstructorpublic class ProductCreateRequest {    private String name;    private Double price;    private Integer qty;}
