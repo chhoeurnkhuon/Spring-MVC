@@ -1,0 +1,1 @@
+package co.istad.springwebmvc.dto;import jakarta.validation.constraints.Size;import jakarta.validation.constraints.NotBlank;public record CategoryRequest(        @NotBlank                @Size(max = 40)        String name,        String description) {}
